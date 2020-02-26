@@ -1,0 +1,41 @@
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15%;
+}
+
+.container-fluid img {
+    width: 350px;
+    height: 350px;
+}
+
+.container-img {
+    background-image: url(/img/banner.jpg);
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-img>p {
+    font-size: 20px;
+}
+
+.title-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-form>p {
+    font-size: 25px;
+}
+
+.author {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

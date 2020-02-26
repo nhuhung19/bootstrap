@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/img/tab-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CoderSchool Home</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand text-left" href="#"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTciIGhlaWdodD0iMzAiIHZpZXdCb3g9IjAgMCAxOTcgMzAiPgogICAgPGRlZnM+CiAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iOC40MzQlIiB4Mj0iOTAuNzUlIiB5MT0iLTguMzM1JSIgeTI9IjEwNy4xOTElIj4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0Q2NDU0MSIvPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjUzJSIgc3RvcC1jb2xvcj0iI0Q0NDMzRiIvPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9Ijc5JSIgc3RvcC1jb2xvcj0iI0NDM0MzQSIvPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNCRjMwMzAiLz4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYiIgeDE9Ii00OS45MDMlIiB4Mj0iMTQ2LjAwOSUiIHkxPSItMzEuNDMyJSIgeTI9IjEwMi40NTIlIj4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZGRiIvPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNDOUM5QzkiLz4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYyIgeDE9IjI4ODU3JSIgeDI9Ijk3MDE0JSIgeTE9IjEyOTglIiB5Mj0iNjc4MzclIj4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZGRiIvPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNDOUM5QzkiLz4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPC9kZWZzPgogICAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJub256ZXJvIj4KICAgICAgICA8Zz4KICAgICAgICAgICAgPGVsbGlwc2UgY3g9IjE1LjA2MSIgY3k9IjE1IiBmaWxsPSJ1cmwoI2EpIiByeD0iMTUuMDYxIiByeT0iMTUiLz4KICAgICAgICAgICAgPHBhdGggZmlsbD0idXJsKCNiKSIgZD0iTTEwLjU4IDYuODYyYy0uNDIyLjQwOC0uNzY1Ljg5LTEuMDEyIDEuNDIyYTQuMTA4IDQuMTA4IDAgMCAwLS4zNTUgMS42OTRzLS4wMSAxLjc0LS4wMTggMS45MDdjLS4wMzIuNzI5LS4xNzQgMS4wNTMtLjYxIDEuNTc4LS41NzcuNjk0LTEuODA3LjYtMS44MDcuNnYxLjg3NHMxLjIzLS4wOTQgMS44MDcuNmMuNDM2LjUyNi41NzguODUuNjEgMS41NzguMDA3LjE2Ny4wMTggMS45MDcuMDE4IDEuOTA3LS4wMDMuNTgzLjExNyAxLjE2LjM1NSAxLjY5NC4yNDcuNTMyLjU5IDEuMDE0IDEuMDEyIDEuNDIxLjQwNy4zOTIgMS42NTcgMS4yMzggMy4xOTIgMS4yMzhoNi4xODRWMjIuNWgtNi4wMjRjLTEuNzcgMC0yLjQ0OC0xLjE2My0yLjYxLTEuNDk3YTIuMjExIDIuMjExIDAgMCAxLS4yMTQtLjk3NXYtMS4zOTNjMC0uODE3LS4xNTctMS41Ny0uNDY1LTIuMjM4LS40NzctMS4wNi0uODktMS4zOTctLjg5LTEuMzk3cy40MTMtLjMzOC44OS0xLjM5NmMuMzA5LS42NjguNDY1LTEuNDIxLjQ2NS0yLjIzOFY5Ljk3M2MtLjAwNC0uMzM3LjA2OS0uNjcuMjEzLS45NzUuMTYzLS4zMzUuODQtMS40OTggMi42MS0xLjQ5OGg2LjAyNVY1LjYyNWgtNi4xODRjLTEuNTM1IDAtMi43ODUuODQ2LTMuMTkyIDEuMjM3eiIvPgogICAgICAgICAgICA8cGF0aCBmaWxsPSJ1cmwoI2MpIiBkPSJNMTUuMDYxIDEuMTI1QzcuMzY3IDEuMTI1IDEuMTMgNy4zMzcgMS4xMyAxNVM3LjM2NyAyOC44NzUgMTUuMDYgMjguODc1YzcuNjk1IDAgMTMuOTMyLTYuMjEyIDEzLjkzMi0xMy44NzVTMjIuNzU2IDEuMTI1IDE1LjA2IDEuMTI1em0wIDI2LjYyNUM3Ljk5MSAyNy43NSAyLjI2IDIyLjA0MiAyLjI2IDE1UzcuOTkxIDIuMjUgMTUuMDYxIDIuMjVjNy4wNyAwIDEyLjgwMiA1LjcwOCAxMi44MDIgMTIuNzVzLTUuNzMxIDEyLjc1LTEyLjgwMiAxMi43NXoiLz4KICAgICAgICA8L2c+CiAgICAgICAgPGcgZmlsbD0iI0Q2NDU0MSI+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik00Ny4wOTMgMjEuNTQ3YTYuNSA2LjUgMCAwIDAgMy40MjUtLjk1N2MxLjAxNS0uNjM3IDEuODY3LTEuNjE0IDIuNTU3LTIuOTNsMi41OTMgMS4xMWMtLjkzNiAxLjg0My0yLjE0MSAzLjIyLTMuNjE2IDQuMTM0YTkuMDk0IDkuMDk0IDAgMCAxLTQuOTYgMS40MyA5LjM3NiA5LjM3NiAwIDAgMS0zLjYyOC0uNzIgOS40ODcgOS40ODcgMCAwIDEtNC45Ny00LjkzNiA5LjMzOSA5LjMzOSAwIDAgMSAwLTcuMjE2IDkuNTIxIDkuNTIxIDAgMCAxIDQuOTctNC45MjYgOS4zNzYgOS4zNzYgMCAwIDEgMy42MjktLjcyIDkuMDk0IDkuMDk0IDAgMCAxIDQuOTYgMS40M2MxLjQ3MS45MTMgMi42NzcgMi4yOSAzLjYxNSA0LjEzMmwtMi41OTMgMS4xMWMtLjY5LTEuMzIyLTEuNTQyLTIuMjktMi41NTctMi45MDVhNi4zODQgNi4zODQgMCAwIDAtMy40MjUtLjk4IDYuMzMyIDYuMzMyIDAgMCAwLTQuNjE0IDEuODkgNi40NyA2LjQ3IDAgMCAwIDAgOS4xNjQgNi4zMyA2LjMzIDAgMCAwIDQuNjE0IDEuODl6TTYwLjIgMjIuMzY3YTYuNDU5IDYuNDU5IDAgMCAxLTEuOTc1LTQuNzQ2YzAtMS44NDQuNjU5LTMuNDIzIDEuOTc2LTQuNzM2YTYuNTEzIDYuNTEzIDAgMCAxIDQuNzY1LTEuOTY3YzEuODUyIDAgMy40MzcuNjU1IDQuNzU2IDEuOTY3IDEuMzE5IDEuMzEyIDEuOTc4IDIuODkgMS45NzYgNC43MzZhNi40NTkgNi40NTkgMCAwIDEtMS45NzYgNC43NDZjLTEuMzE3IDEuMzExLTIuOTAyIDEuOTY3LTQuNzU2IDEuOTY3YTYuNTEzIDYuNTEzIDAgMCAxLTQuNzY1LTEuOTY3em0xLjk3Ny03LjUzOWEzLjkyMyAzLjkyMyAwIDAgMC0uNDkzIDQuOTcgMy45NjEgMy45NjEgMCAwIDAgNC44IDEuNDUgMy45MzIgMy45MzIgMCAwIDAgMi4zNjEtNC40MDYgMy45NDggMy45NDggMCAwIDAtMy44NzktMy4xNjUgMy44MzQgMy44MzQgMCAwIDAtMi43OSAxLjE1di4wMDF6TTE2NC4xMDggMjIuMzY3YTYuNDU5IDYuNDU5IDAgMCAxLTEuOTc2LTQuNzQ2YzAtMS44NDQuNjU5LTMuNDIzIDEuOTc2LTQuNzM2YTYuNTEzIDYuNTEzIDAgMCAxIDQuNzY1LTEuOTY3YzEuODUyIDAgMy40MzcuNjU1IDQuNzU2IDEuOTY3IDEuMzE5IDEuMzEyIDEuOTc4IDIuODkgMS45NzYgNC43MzZhNi40NTkgNi40NTkgMCAwIDEtMS45NzYgNC43NDZjLTEuMzE3IDEuMzExLTIuOTAyIDEuOTY3LTQuNzU2IDEuOTY3YTYuNTEzIDYuNTEzIDAgMCAxLTQuNzY1LTEuOTY3em0xLjk3Ni03LjUzOWEzLjkyMyAzLjkyMyAwIDAgMC0uNDkzIDQuOTcgMy45NjEgMy45NjEgMCAwIDAgNC44IDEuNDUgMy45MzIgMy45MzIgMCAwIDAgMi4zNjEtNC40MDYgMy45NDggMy45NDggMCAwIDAtMy44NzktMy4xNjUgMy44MzQgMy44MzQgMCAwIDAtMi43OSAxLjE1di4wMDF6TTE4MC4xNDcgMjIuMzY3YTYuNDU5IDYuNDU5IDAgMCAxLTEuOTc2LTQuNzQ2YzAtMS44NDQuNjU5LTMuNDIzIDEuOTc2LTQuNzM2YTYuNTEzIDYuNTEzIDAgMCAxIDQuNzY1LTEuOTY3YzEuODUyIDAgMy40MzguNjU1IDQuNzU2IDEuOTY3IDEuMzIgMS4zMTIgMS45NzggMi44OSAxLjk3NiA0LjczNmE2LjQ1OSA2LjQ1OSAwIDAgMS0xLjk3NiA0Ljc0NmMtMS4zMTcgMS4zMTEtMi45MDIgMS45NjctNC43NTYgMS45NjdhNi41MTMgNi41MTMgMCAwIDEtNC43NjUtMS45Njd6bTEuOTc2LTcuNTM5YTMuOTIzIDMuOTIzIDAgMCAwLS40OTIgNC45NyAzLjk2MSAzLjk2MSAwIDAgMCA0Ljc5OSAxLjQ1IDMuOTMyIDMuOTMyIDAgMCAwIDIuMzYyLTQuNDA2IDMuOTQ4IDMuOTQ4IDAgMCAwLTMuODgtMy4xNjUgMy44MzQgMy44MzQgMCAwIDAtMi43ODkgMS4xNXYuMDAxek05Ny4wNSAxMC45MDhjMS44NTMgMCAzLjQzOC42NTYgNC43NTcgMS45NjggMS4zMTggMS4zMTIgMS45NzcgMi44OSAxLjk3NiA0LjczNmwtLjAyNS44NTVIOTMuMTc3Yy4xMDMuNjUuNSAxLjMzNCAxLjE5MiAyLjA1NGEzLjkxOSAzLjkxOSAwIDAgMCA0Ljc1Ni40MzhjLjYxMi0uMzY0IDEuMTUzLTEgMS42MjItMS45MWwyLjU2MiAxLjEwNGMtLjcxNSAxLjQyNC0xLjYwNiAyLjQ2OS0yLjY3MyAzLjEzNGE2LjUyOSA2LjUyOSAwIDAgMS0zLjU4OCAxLjA0MWMtMS44NTIgMC0zLjQzNy0uNjU1LTQuNzU2LTEuOTY3LTEuMzE4LTEuMzEyLTEuOTgyLTIuODk0LTEuOTktNC43NDUgMC0xLjg0NS42NjMtMy40MjMgMS45OS00LjczNyAxLjMyOC0xLjMxMyAyLjkxNC0xLjk3IDQuNzU5LTEuOTd6bTMuNDgyIDQuNzk3Yy0uMi0uNDA0LS41ODktLjgzMS0xLjE2OC0xLjI4M2EzLjk1IDMuOTUgMCAwIDAtNC42MjYgMGMtLjU2NC40Ni0uOTUuODg3LTEuMTU3IDEuMjgzaDYuOTV6TTE0Ni4wOTMgMjAuMTU2Yy0uNzE2IDEuNDI0LTEuNjA3IDIuNDctMi42NzQgMy4xMzRhNi41MzcgNi41MzcgMCAwIDEtMy41OTEgMS4wNDJjLTEuODUzIDAtMy40NDQtLjY1Ni00Ljc3Mi0xLjk2OGE2LjQ1NSA2LjQ1NSAwIDAgMS0xLjk3Ni00Ljc0NWMwLTEuODQ0LjY1OC0zLjQyMyAxLjk3Ni00LjczNiAxLjMxNy0xLjMxMyAyLjkwOC0xLjk3IDQuNzcyLTEuOTY4YTYuNTM3IDYuNTM3IDAgMCAxIDMuNTkxIDEuMDQyYzEuMDY3LjY2NSAxLjk1OCAxLjcwNyAyLjY3NCAzLjEyNWwtMi41NjYgMS4xMDRjLS40Ny0uOTAyLTEuMDExLTEuNTM5LTEuNjI3LTEuOTFhMy45OCAzLjk4IDAgMCAwLTUuMTE5Ljc3IDMuOTQgMy45NCAwIDAgMCAwIDUuMTU1IDMuOTggMy45OCAwIDAgMCA1LjEyLjc3Yy42MTEtLjM2NCAxLjE1NC0xLjAwMSAxLjYyNi0xLjkxMWwyLjU2NiAxLjA5NnpNODQuOTU3IDUuODE2djYuMzY1YTYuNzU1IDYuNzU1IDAgMCAwLTguNzE3LjY5NWMtMS4zMTcgMS4zMTItMS45NzYgMi44OS0xLjk3NiA0LjczNmE2LjcxIDYuNzEgMCAwIDAgMy42NyA1Ljk4NiA2Ljc2NSA2Ljc2NSAwIDAgMCA3LjAyMy0uNTM3djEuMjczaDIuNzlWNS44MTZoLTIuNzl6bS0xLjE0NSAxNC42YTMuOTk3IDMuOTk3IDAgMCAxLTQuOTY1LjU1MiAzLjk1OSAzLjk1OSAwIDAgMS0xLjYwMi00LjcxMiAzLjk4NiAzLjk4NiAwIDAgMSA0LjI4LTIuNTY3IDMuOTc1IDMuOTc1IDAgMCAxIDMuNDMyIDMuNjE1di42MjNhMy44MTIgMy44MTIgMCAwIDEtMS4xNDUgMi40OXpNMTI5LjU2NiAxNmE0LjUzMyA0LjUzMyAwIDAgMC0uMTgyLS4yM2MtMS4wODYtMS4yNTMtMi45MDYtMS45NS01LjAxLTIuMDktMi45NTktLjE5LTQuNTUzLS45NTMtNC41NTMtMi4yOTMgMC0uMDkuMDA0LS4xNzguMDExLS4yNjMuMDc0LS44MzEuNTAzLTEuNDcxIDEuMjg3LTEuOTJhMy44NjMgMy44NjMgMCAwIDEgMS4yMTYtLjQ2M2MuMzc0LS4wOTMuNzU5LS4xNCAxLjE0NS0uMTQyIDEuMjE5IDAgMi40NzYuNDM4IDMuMzEgMS4zMTIuNDc1LjQxNSAxLjI1NiAxLjc0NCAxLjI1NiAxLjc0NGwyLjQ3My0uOTI2Yy0uMjMyLS43NDctMS4wNDYtMi4wMi0xLjcxLTIuNzUyLTEuMzctMS40NDEtMy4zMDEtMi4xNjEtNS4zMy0yLjE2MS0xLjcwNSAwLTMuMTY0LjQ2My00LjM3OCAxLjM4OS0xLjM3NyAxLjA1LTIuMDY1IDIuNDQ1LTIuMDY1IDQuMTg1IDAgMS4wOC4zMTggMiAuOTU1IDIuNzYuMDU4LjA3Ny4xMTYuMTUzLjE4My4yMyAxLjA4NSAxLjI1MyAyLjkwNSAxLjk1IDUuMDEgMi4wOSAyLjk1OC4xOSA0LjU1My45NTMgNC41NTMgMi4yOTIgMCAuOTYxLS40MzMgMS42OS0xLjI5OCAyLjE4NmEzLjg2MyAzLjg2MyAwIDAgMS0xLjIxNi40NjNjLS4zNzUuMDkyLS43NTkuMTQtMS4xNDUuMTQtMS4yMiAwLTIuNDc3LS40MzctMy4zMTEtMS4zMS0uNDc0LS40MTYtMS4yNTUtMS43NDUtMS4yNTUtMS43NDVsLTIuNDc0LjkyNmMuMjMzLjc0NyAxLjA0NiAyLjAyIDEuNzExIDIuNzUzIDEuMzcgMS40NCAzLjMgMi4xNiA1LjMzIDIuMTYgMS43MDQgMCAzLjE2My0uNDYzIDQuMzc2LTEuMzg4IDEuMzc2LTEuMDUxIDIuMDYzLTIuNDQ3IDIuMDYzLTQuMTg3IDAtMS4wOC0uMzE4LTItLjk1NS0yLjc2aC4wMDN6TTE5NC4yMSA1LjgxNkgxOTd2MTguNTE5aC0yLjc5ek0xNTkuNTc1IDE2LjI5Yy0uMDI3LTIuOTc2LTIuNDU1LTUuMzc3LTUuNDQ0LTUuMzgyYTUuMjQ3IDUuMjQ3IDAgMCAwLTIuNjkyLjY5NVY1LjgxNmgtMi43OXYxOC41MThoMi43OVYxNi4yOWEyLjY2OCAyLjY2OCAwIDAgMSAyLjY3My0yLjY2MiAyLjY2OCAyLjY2OCAwIDAgMSAyLjY3MyAyLjY2MnY4LjA0NGgyLjc5VjE2LjI5ek0xMTQuNDc5IDEzLjY4NnYtMi43NzhoLTEuMzk1YTYuNDc1IDYuNDc1IDAgMCAwLTMuOTUyIDEuMjczdi0xLjI3M2gtMi43ODl2MTMuNDI2aDIuNzl2LTcuMDI2YTMuOTQ1IDMuOTQ1IDAgMCAxIDMuOTUxLTMuNjIyaDEuMzk1eiIvPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+Cg=="></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Team</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                    <button type="button" class="btn btn-outline-danger ">About ISA</button>
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-outline-danger ml-5">Scholarships</button>
+                </li>
+                <li class="nav-item">
+                    <a href="checkout.html"><button type="button" class="btn btn-outline-danger mr-5 ml-5">Check out</button></a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">VIE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">|</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ENG</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div>
+            <img src="img/logo.jpeg" alt="coder-school-logo">
+            <div class="display-4 font-weight-normal">Courses Starting September 2019</div>
+            <p>Designed to help talented individuals meet and learn new technologies fast. Meet 5 times a week for full stack web development training.</p>
+            <p class="typewrite text-danger font-weight-normal display-4 p-4" data-period="2000" data-type='[ 
+                    "Ready to change your life?", 
+                    "What are you waiting for?", 
+                    "Top-Rated Programming Courses Starting September 2019",
+                    "Join CoderSchool Today!"
+                    ]'></p>
+        </div>
+    </div>
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="text-center text-danger">Curriculum designed to get you hired</h1>
+            <p class="text-center">Originally developed in Silicon Valley, our teaching materials bring a wealth of experience in coding education. We focus on real-world projects so you can build a strong portfolio of real apps that simulate the types of challenges you will
+                meet in your professional career.
+            </p>
+
+            <div class="row">
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card shadow">
+                        <img src="img/card1.png" class="card-img-top" alt="card 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Full Stack Web Development</h5>
+                            <p class="card-text">HTML/CSS, Javascript, React, Python, Flask.</p>
+                            <div class="text-right pt-5">
+                                <a href="#" class="btn btn-danger ">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card shadow">
+                        <img src="img/card2.png" class="card-img-top" alt="card2">
+                        <div class="card-body">
+                            <h5 class="card-title">AI/ML Data Science</h5>
+                            <p class="card-text">Python, SQL, Machine Learning, Deep Learning, NLP, GCP, End-to-end Machine Learning</p>
+                            <div class="text-right">
+                                <a href="#" class="btn btn-danger">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card shadow">
+                        <img src="img/card3.png" class="card-img-top" alt="card3">
+                        <div class="card-body">
+                            <h5 class="card-title">Mobile App Development</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="text-right">
+                                <a href="#" class="btn btn-danger">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-img">
+        <h1 class="text-center"><i class="fas fa-history"></i>History</h1>
+        <p class="text-center">Over the past 5 years we've trained over 800 developers.</p>
+        <p class="text-center">Our alumni include engineers currently working at Grab, Facebook, Google, & Netflix</p>
+    </div>
+
+    <footer>
+        <div class="jumbotron mb-2">
+            <div class="container title-form pt-5 pb-4">
+                <h1 class="text-danger">Learn more</h1>
+                <p class="text-center">We have guidance counslers available to support you in your learning journey. Enter your information to schedule a consultation</p>
+            </div>
+            <form class="container w-75 pt-5 pb-5">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputFirstName4">First Name</label>
+                        <input type="firstname" class="form-control" id="inputFirstName4" placeholder="Hung">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputLastName4">Last Name</label>
+                        <input type="lastname" class="form-control" id="inputLastName4" placeholder="Ta">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail4">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputPassword4">Password</label>
+                        <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputAddress">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                      Check me out
+                    </label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-danger w-100">Learn More</button>
+            </form>
+        </div>
+
+    </footer>
+
+    <div class="author mb-1 pt-0">Built By
+        <a class="ml-2" href="#">NhuHung</a>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="img/typewrite.js"></script>
+</body>
+
+</html>
